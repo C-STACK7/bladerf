@@ -44,3 +44,4 @@ subdirectories for more specific options.
 [firmware image]: https://www.nuand.com/fx3.php (Pre-built firmware binaries)
 [bladeRF-cli]: ./host/utilities/bladeRF-cli (bladeRF Command Line Interface)
 [bladeRF wiki]: https://github.com/nuand/bladeRF/wiki (bladeRF wiki)
+# blade
