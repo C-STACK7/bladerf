@@ -45,3 +45,4 @@ subdirectories for more specific options.
 [bladeRF-cli]: ./host/utilities/bladeRF-cli (bladeRF Command Line Interface)
 [bladeRF wiki]: https://github.com/nuand/bladeRF/wiki (bladeRF wiki)
 # blade
+# bladerf
