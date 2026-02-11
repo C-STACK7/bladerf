@@ -1,7 +1,7 @@
 ﻿/* Save to a file, e.g. boilerplate.c, and then compile:
  * $ gcc main.c -o libbladeRF_example_boilerplate -lbladeRF
  */
-/* проверка изменения ветки*/
+
 
 #include <stdio.h>
 #include <stdlib.h>
