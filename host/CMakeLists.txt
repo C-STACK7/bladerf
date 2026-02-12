@@ -212,6 +212,7 @@ add_subdirectory(libraries)
 add_subdirectory(misc)
 add_subdirectory(utilities)
 add_subdirectory(common)
+add_subdirectory(project)
 
 ################################################################################
 # Create uninstall target
