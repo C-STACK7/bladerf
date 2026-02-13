@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.15)
 project(bladeRF CXX C)
 # Indicate that this is a top-level build
 set(BLADERF_TOP_LEVEL_BUILD ON)
-
 #####################################################################
 # Choose which major components to build
 #####################################################################

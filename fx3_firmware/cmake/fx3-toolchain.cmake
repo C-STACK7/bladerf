@@ -43,7 +43,7 @@ if(WIN32)
         message("FX3_INSTALL_PATH not specified. Falling back to default.")
     endif()
 
-    set(FX3_WINDOWS_HOST True)
+    set(FX3_WINDOWS_HOST False)
     set(EXE ".exe")
 
     set(ARM_NONE_EABI_PATH "${FX3_INSTALL_PATH}/ARM GCC")
@@ -54,7 +54,7 @@ if(WIN32)
 
 else()
     if("${FX3_INSTALL_PATH}" STREQUAL "")
-        set(FX3_INSTALL_PATH "/opt/cypress/fx3_sdk")
+        set(FX3_INSTALL_PATH "/home/tech/Documents/bladeRF-2024.05/fx3_firmware/cypress-fx3-sdk-linux/firmware/common")
         message("FX3_INSTALL_PATH not specified. Falling back to default.")
     endif()
 

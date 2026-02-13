@@ -34,7 +34,7 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR}/../host/cmake/modules)
 # Update these definitions when updating the firmware version
 set(VERSION_INFO_MAJOR 2)
 set(VERSION_INFO_MINOR 4)
-set(VERSION_INFO_PATCH 0)
+set(VERSION_INFO_PATCH 1)
 
 if(NOT DEFINED VERSION_INFO_EXTRA)
     set(VERSION_INFO_EXTRA "git")
@@ -55,8 +55,8 @@ configure_file(
 ################################################################################
 
 option(ENABLE_BLADERF_FIRMWARE
-    "Build firmware for the bladeRF 1.0"
-    ON
+    "Build firmware for the bladeRF 2.0"
+    OFF
 )
 
 ################################################################################
