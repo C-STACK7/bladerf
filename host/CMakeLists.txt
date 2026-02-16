@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 project(bladeRF C)
 #bladerf lib 2.5.0
+#add new project bladerf list device
 ################################################################################
 # Project configuration
 ################################################################################
